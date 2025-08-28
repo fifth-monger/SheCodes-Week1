@@ -16,7 +16,7 @@
       h2 {
         color: #272044;
         text-align: center;
-        font-weight: 100;
+        font-weight: normal;
       }
       button {
         display: block;
@@ -35,33 +35,20 @@
         color: #f5f0fe;
         cursor: pointer;
       }
-      p {
-        text-align: center;
-      }
-      img {
-        display: block;
-        margin: 0 auto;
-        width: 400px;
-      }
-      .menu {
+      ul {
         list-style: none;
         padding: 0;
-        margin: 0 auto;
-        display: block;
-        display: flex;
-        width: 300px;
+        text-align: center;
       }
-      .menu li {
+      li {
         display: inline;
-        text-decoration: none;
-        display: block;
-        margin: 0 auto;
+        margin: 0 15px;
       }
-      .menu li a {
+      li a {
         text-decoration: none;
         transition: all 200ms ease;
       }
-      .menu li a:hover {
+      li a:hover {
         text-decoration: underline;
       }
       .who {
@@ -73,13 +60,21 @@
       .tales {
         color: green;
       }
+      p {
+        text-align: center;
+      }
+      img {
+        display: block;
+        margin: 0 auto;
+        width: 400px;
+      }
     </style>
   </head>
   <body>
     <h1>SheCodes</h1>
     <h2>Coding Workshop</h2>
     <button>Apply Now</button>
-    <ul class="menu">
+    <ul>
       <li>
         <a href="https://www.shecodes.io/students" target="_blank" class="who">
           Coders
